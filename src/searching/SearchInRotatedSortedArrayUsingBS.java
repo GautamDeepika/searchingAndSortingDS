@@ -52,7 +52,11 @@ public class SearchInRotatedSortedArrayUsingBS {
 
     public static void main(String[] args) {
         int arr[] = {7, 9, 1, 2, 3};
-        System.out.println("Key is present at "+findPosition(arr, arr.length,2 )+" index");
-
+        int indexOfKey = findPosition(arr, arr.length, 2);
+        if (indexOfKey == -1) {
+            System.out.println("Element is absent");
+        } else {
+            System.out.println("Key is present at " + indexOfKey + " index");
+        }
     }
 }

@@ -2,7 +2,7 @@ package searching;
 
 public class FirstAndLastOccurrenceOfKeyUsingBinarySearch {
 
-    public static int firstOccur(int arr[], int size, int key) {
+    public static int firstOccur(int arr[], int size, int key)  {
         int s = 0, e = size - 1;
         int mid = s + (e - s) / 2;
         int ans = -1;
