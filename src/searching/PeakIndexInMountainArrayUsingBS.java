@@ -15,6 +15,7 @@ public class PeakIndexInMountainArrayUsingBS {
             mid = s + (e - s) / 2;
         }
         return s;
+//        return e;
     }
 
     public static void main(String[] args) {
